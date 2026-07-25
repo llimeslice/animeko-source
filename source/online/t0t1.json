@@ -56,7 +56,7 @@
                         "matchVideo": {
                             "enableNestedUrl": true,
                             "matchNestedUrl": "$^",
-                            "matchVideoUrl": "(^http(s)?:\\/\\/(?!.*http).+(sign\\.bytetos|sign\\.byteimg|mcloud\\.139|cloudflarestorage|tos-cn)\\.com(?!.*\\.ts).+(-expires|-signature))|((bilivideo|akamaized|szbdyd)\\.com(?!.*\\.ts))|(\\/video\\/tos\\/)|(\\/video\\/.*mime_type=video)",
+                            "matchVideoUrl": "(^https?:\\/\\/(?!.*https?:\\/\\/)(?:(?:cdn\\.yzzy\\d+-play|yzzy\\.play-cdn\\d*)\\.com|vip\\.ffzy-(?:plays|online\\d*)\\.com)\\/[^?#\\s]+\\.m3u8(?:\\?[^#\\s]*)?$)|(^https?:\\/\\/(?!.*https?:\\/\\/).+(sign\\.bytetos|sign\\.byteimg|mcloud\\.139|cloudflarestorage|tos-cn)\\.com(?!.*\\.ts).+(-expires|-signature))|((bilivideo|akamaized|szbdyd)\\.com(?!.*\\.ts))|(\\/video\\/tos\\/)|(\\/video\\/.*mime_type=video)",
                             "cookies": "quality=1080",
                             "addHeadersToVideo": {
                                 "referer": "",
