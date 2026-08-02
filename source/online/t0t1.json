@@ -60,7 +60,7 @@
                             "cookies": "quality=1080",
                             "addHeadersToVideo": {
                                 "referer": "",
-                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
                             }
                         }
                     },
@@ -127,7 +127,7 @@
                             "cookies": "quality=1080",
                             "addHeadersToVideo": {
                                 "referer": "https://www.libhd.com/",
-                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
                             }
                         }
                     },
@@ -194,7 +194,7 @@
                             "cookies": "quality=1080",
                             "addHeadersToVideo": {
                                 "referer": "",
-                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
                             }
                         }
                     },
@@ -261,7 +261,7 @@
                             "cookies": "quality=1080",
                             "addHeadersToVideo": {
                                 "referer": "",
-                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
                             }
                         }
                     },
@@ -328,7 +328,7 @@
                             "cookies": "quality=1080",
                             "addHeadersToVideo": {
                                 "referer": "",
-                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
                             }
                         }
                     },
@@ -395,7 +395,7 @@
                             "cookies": "quality=1080",
                             "addHeadersToVideo": {
                                 "referer": "",
-                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
                             }
                         }
                     },
@@ -529,7 +529,7 @@
                             "cookies": "quality=1080",
                             "addHeadersToVideo": {
                                 "referer": "",
-                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
                             }
                         }
                     },
@@ -596,7 +596,7 @@
                             "cookies": "quality=1080",
                             "addHeadersToVideo": {
                                 "referer": "",
-                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
                             }
                         }
                     },
@@ -659,7 +659,7 @@
                         "matchVideo": {
                             "enableNestedUrl": true,
                             "matchNestedUrl": "$^",
-                            "matchVideoUrl": "^https?:\\/\\/(?!.*https?:\\/\\/)(?:[^?#\\s]+\\.(?:m3u8|mp4)(?:\\?[^#\\s]*)?|[^?#\\s]*(?:tiktokcdn|akamaized|douyinvod)[^#\\s]*)$",
+                            "matchVideoUrl": "^https?:\\/\\/(?!.*https?:\\/\\/)(?:[^?#\\s]+\\.(?:m3u8|mp4)(?:\\?[^#\\s]*)?|[^?#\\s]*[?&]filename=[^&#\\s]+\\.(?:m3u8|mp4)(?:[&#][^#\\s]*)?|[^?#\\s]*(?:tiktokcdn|akamaized|douyinvod|zjcdn|byteimg)[^#\\s]*)$",
                             "cookies": "",
                             "addHeadersToVideo": {
                                 "referer": "",
@@ -730,7 +730,7 @@
                             "cookies": "quality=1080",
                             "addHeadersToVideo": {
                                 "referer": "",
-                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
                             }
                         }
                     },
@@ -797,7 +797,7 @@
                             "cookies": "quality=1080P",
                             "addHeadersToVideo": {
                                 "referer": "",
-                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
                             }
                         }
                     },
