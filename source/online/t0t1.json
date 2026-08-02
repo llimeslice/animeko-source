@@ -275,7 +275,7 @@
                 "arguments": {
                     "name": "咕咕番",
                     "description": "https://www.gugu3.com",
-                    "iconUrl": "https://www.gugu3.com/favicon.ico",
+                    "iconUrl": "https://www.gugu3.com/upload/site/20260506-1/a0799f74e4bced939fbbc0b79cb27671.png",
                     "searchConfig": {
                         "searchUrl": "https://www.gugu3.com/index.php/vod/search.html?wd={keyword}",
                         "searchUseOnlyFirstWord": true,
@@ -610,7 +610,7 @@
                 "arguments": {
                     "name": "番薯动漫",
                     "description": "https://fsdm.top/",
-                    "iconUrl": "https://www.fsdm02.com/favicon.ico",
+                    "iconUrl": "https://p0.ssl.qhimg.com/t016852bd7df93fb9de.png",
                     "searchConfig": {
                         "searchUrl": "https://dm.fsdm02.com/vodsearch/-------------.html?wd={keyword}",
                         "searchUseOnlyFirstWord": true,
@@ -677,7 +677,7 @@
                 "arguments": {
                     "name": "橘子动漫",
                     "description": "https://www.mgnacg.com",
-                    "iconUrl": "https://www.mgnacg.com/favicon.ico",
+                    "iconUrl": "https://r2img.nanoacg.com/favicon.png",
                     "searchConfig": {
                         "searchUrl": "https://www.mgnacg.com/search/-------------/?wd={keyword}",
                         "searchUseOnlyFirstWord": true,
