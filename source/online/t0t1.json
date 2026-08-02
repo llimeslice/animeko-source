@@ -35,7 +35,7 @@
                             "selectChannelNames": ".hl-plays-from > a",
                             "matchChannelName": "^(?<ch>.+?)(\\d+)?$",
                             "selectEpisodeLists": ".hl-tabs-box .hl-list-wrap",
-                            "selectEpisodesFromList": "a",
+                            "selectEpisodesFromList": "#hl-plays-list > li > a",
                             "selectEpisodeLinksFromList": "",
                             "matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
                         },
@@ -102,7 +102,7 @@
                             "selectChannelNames": ".hl-plays-from > a",
                             "matchChannelName": "^(?<ch>.+)$",
                             "selectEpisodeLists": ".hl-rb-playlist .hl-tabs-box",
-                            "selectEpisodesFromList": "a",
+                            "selectEpisodesFromList": "#hl-plays-list > li > a",
                             "selectEpisodeLinksFromList": "",
                             "matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
                         },
