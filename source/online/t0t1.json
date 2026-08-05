@@ -344,7 +344,7 @@
                     "description": "发布页：https://www.cycity.pro",
                     "iconUrl": "https://www.cycani.org/upload/site/20240319-1/25e700991446a527804c82a744731b60.png",
                     "searchConfig": {
-                        "searchUrl": "https://www.cycani.org/search.html?wd={keyword}",
+                        "searchUrl": "https://www.cycani.org/category?q={keyword}",
                         "searchUseOnlyFirstWord": true,
                         "searchRemoveSpecial": true,
                         "searchUseSubjectNamesCount": 1,
@@ -356,8 +356,8 @@
                             "preferShorterName": true
                         },
                         "selectorSubjectFormatIndexed": {
-                            "selectNames": "div.detail-info.rel.flex-auto.lightSpeedIn > a > h3",
-                            "selectLinks": "div.detail-info.rel.flex-auto.lightSpeedIn > a",
+                            "selectNames": "main > div.container > div.grid > a.group[href^=\"/anime/\"] > span + div",
+                            "selectLinks": "main > div.container > div.grid > a.group[href^=\"/anime/\"]",
                             "preferShorterName": true
                         },
                         "selectorSubjectFormatJsonPathIndexed": {
@@ -365,7 +365,7 @@
                             "selectNames": "$[*]['title','name']",
                             "preferShorterName": true
                         },
-                        "channelFormatId": "index-grouped",
+                        "channelFormatId": "no-channel",
                         "selectorChannelFormatFlattened": {
                             "selectChannelNames": "div.swiper-wrapper > a",
                             "matchChannelName": "^(?<ch>.+?)(\\d+)?$",
@@ -375,7 +375,7 @@
                             "matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
                         },
                         "selectorChannelFormatNoChannel": {
-                            "selectEpisodes": "#glist-1 > div.module-blocklist.scroll-box.scroll-box-y > div > a",
+                            "selectEpisodes": "main > div.container > section > div.grid > a[title^=\"第\"][href^=\"/anime/\"][href*=\"/play/\"]",
                             "selectEpisodeLinks": "",
                             "matchEpisodeSortFromName": "第\\s*(?<ep>.+)\\s*[话集]"
                         },
@@ -659,7 +659,7 @@
                         "matchVideo": {
                             "enableNestedUrl": true,
                             "matchNestedUrl": "$^",
-                            "matchVideoUrl": "^https?:\\/\\/(?!.*https?:\\/\\/)(?:[^?#\\s]+\\.(?:m3u8|mp4)(?:\\?[^#\\s]*)?|[^?#\\s]*[?&]filename=[^&#\\s]+\\.(?:m3u8|mp4)(?:[&#][^#\\s]*)?|[^?#\\s]*(?:tiktokcdn|akamaized|douyinvod|zjcdn|byteimg)[^#\\s]*)$",
+                            "matchVideoUrl": "^https?:\\/\\/(?!.*https?:\\/\\/)(?:[^?#\\s]+\\.(?:m3u8|mp4)(?:\\?[^#\\s]*)?|[^?#\\s]*[?&]filename=[^&#\\s]+\\.(?:m3u8|mp4)(?:[&#][^#\\s]*)?|[^?#\\s]*(?:tiktokcdn|akamaized|douyinvod|zjcdn|byteimg|cycmedia)[^#\\s]*)$",
                             "cookies": "",
                             "addHeadersToVideo": {
                                 "referer": "",
